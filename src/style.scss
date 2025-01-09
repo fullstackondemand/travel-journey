@@ -3,9 +3,18 @@
 /* Tailwind Styles */
 @use "tailwindcss";
 
-/* Custom Styles */
-@use './scss/theme';
-@use './scss/utilities';
-@use './scss/base';
-@use './scss/components';
-@use './scss/custom';
+/** Custom Styles */
+html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    interpolate-size: allow-keywords;
+}
+
+#hamburger-icon span {
+    cursor: pointer;
+    height: 12px;
+    position: relative;
+    transform: rotate(0);
+    transition: .2s ease-in-out;
+    width: 16px;
+}

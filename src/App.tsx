@@ -1,8 +1,5 @@
-export default function App() {
+import Home from "./pages/Home";
 
-  return <main>
-    <div className="container">
-      <h1 className="text-center">Travel Journey</h1>
-    </div>
-  </main>
+export default function App() {
+  return <Home />
 }
