@@ -82,7 +82,7 @@ export default function Home() {
 
             <div className="custom-scroll flex h-full overflow-x-scroll overflow-y-hidden">
                 <div className="h-full w-full flex flex-nowrap">
-                    {Data.map(({ date, year, space, cards }, idx) => <DateTable date={date} year={year} space={space} key={idx}>
+                    {[...Data, ...Data].map(({ date, year, space, cards }, idx) => <DateTable date={date} year={year} space={space} key={idx}>
                         {cards.map(({ Type }, idx) => <Type key={idx} />
                         )}
                     </DateTable>
