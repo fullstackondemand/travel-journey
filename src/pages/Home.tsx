@@ -1,7 +1,9 @@
 import Header from "../components/shared/Header";
 import ColorCard from "../components/ui/ColorCard";
-import DateTable from "../components/ui/DateTable";
+import DateTable from "../components/shared/DateTable";
 import ImageCard from "../components/ui/ImageCard";
+import SliderCard from "../components/ui/SliderCard";
+import BigImageCard from "../components/ui/BigImageCard";
 
 const Data = [
     {
@@ -24,10 +26,10 @@ const Data = [
     {
         year: 2024,
         date: 'feb 21',
-        space: 'justify-end',
+        space: 'justify-start',
         cards: [
             { Type: ImageCard },
-            { Type: ImageCard },
+            { Type: BigImageCard },
         ]
     },
     {
@@ -41,10 +43,10 @@ const Data = [
     },
     {
         year: 2024,
-        date: 'feb 26',
+        date: 'feb 29',
         space: 'justify-end',
         cards: [
-            { Type: ImageCard }
+            { Type: SliderCard }
         ]
     },
     {
@@ -53,6 +55,14 @@ const Data = [
         space: 'justify-center',
         cards: [
             { Type: ColorCard }
+        ]
+    },
+    {
+        year: 2024,
+        date: 'feb 21',
+        space: 'justify-start',
+        cards: [
+            { Type: BigImageCard }
         ]
     },
     {
