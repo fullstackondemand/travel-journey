@@ -2,7 +2,7 @@ import { GrPin } from "react-icons/gr";
 
 export default function ColorCard() {
 
-    return <div className="colour-card text-white">
+    return <div className="colour-card text-white ease-initial duration-1000 scale-0" data-scroll data-scroll-class="scale-100">
         <div className="rounded-2xl duration-500 starting:scale-0 starting:opacity-0 opacity-100 hover:scale-95 transition-[scale] relative z-10 h-full w-full bg-[#324A5E]">
 
             <div className="px-5 py-4 flex flex-col pb-6 lg:pb-36 h-[30vh] text-[#283b4b]">
