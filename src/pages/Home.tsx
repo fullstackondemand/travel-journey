@@ -76,8 +76,8 @@ const Data = [
 
 export default function Home() {
 
-    return <main className="home-page screen-size text-white flex flex-col lowercase">
-        <section className="bg-white text-black w-screen h-screen flex flex-col overflow-y-hidden relative">
+    return <main className="home-page h-screen w-screen text-white flex flex-col lowercase">
+        <section className="bg-white text-black w-full h-full flex flex-col overflow-y-hidden relative">
             <Header />
 
             <div className="custom-scroll flex h-full overflow-x-scroll overflow-y-hidden">
