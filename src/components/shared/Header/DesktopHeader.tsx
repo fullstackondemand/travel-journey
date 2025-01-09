@@ -7,7 +7,7 @@ export default function DesktopHeader() {
             <img className="w-10" src="/assets/images/logo.svg" alt="logo" />
         </a>
 
-        <ul className="inline-flex gap-9 text-sm">
+        <ul className="inline-flex gap-9 text-sm list-none">
             <li>
                 <a href="#" className="hover:text-[#303030] duration-150">work</a>
             </li>
