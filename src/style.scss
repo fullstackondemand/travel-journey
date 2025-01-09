@@ -10,11 +10,20 @@ html {
     interpolate-size: allow-keywords;
 }
 
-#hamburger-icon span {
-    cursor: pointer;
-    height: 12px;
-    position: relative;
-    transform: rotate(0);
-    transition: .2s ease-in-out;
-    width: 16px;
+.custom-scroll {
+    &::-webkit-scrollbar {
+        width: 2em;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #c9c9c9;
+        border-radius: 100vw;
+        margin-block: .5em
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #f2f2f2;
+        border-radius: 100vw;
+        padding: 10px
+    }
 }
