@@ -6,7 +6,7 @@ export default function DateColumn({ date, year, space, children }: {
 }) {
 
     return <div className="w-[60vw] sm:w-1/2 lg:w-1/4 xl:w-1/5 flex-none flex flex-col h-full text-black">
-        <div className="flex flex-col items-center py-3 h-full relative">
+        <div className="flex flex-col items-center pt-3 h-full relative">
 
             <p className="text-sm font-bold">{date}</p>
             <p className="text-xs text-[#474747]">{year}</p>

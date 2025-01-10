@@ -2,8 +2,9 @@ import { ElementType } from "react";
 import PostContent from "./PostContent";
 import useModal from "../../context/ModalContext";
 
-export default function OuterCard({ Card }: {
-    Card: ElementType
+export default function OuterCard({ Card, Modal }: {
+    Card: ElementType,
+    Modal: ElementType
 }) {
 
     /** Variable Declarations */
@@ -15,5 +16,6 @@ export default function OuterCard({ Card }: {
                 <PostContent />
             </Card>
         </div>
+        <Modal />
     </div>
 }

@@ -55,7 +55,7 @@ const Data = [
     {
         year: 2024,
         date: 'feb 21',
-        space: 'justify-between',
+        space: 'justify-end',
         cards: [
             {
                 Card: SliderCard,
@@ -79,8 +79,7 @@ export default function Home() {
 
                             {cards.map(({ Card, Modal }, cardIdx) =>
                                 <ModalContextProvider key={cardIdx}>
-                                    <OuterCard Card={Card} />
-                                    <Modal />
+                                    <OuterCard Card={Card} Modal={Modal} />
                                 </ModalContextProvider>
                             )}
 
