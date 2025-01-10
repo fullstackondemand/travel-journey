@@ -8,7 +8,7 @@ export default function ImageModal() {
     const { open, toggleOpen } = useModal();
 
     return <OuterModal>
-        <div className={`z-50 image-modal fixed top-[50%] left-[50%] translate-[-50%] max-sm:min-w-[350px] max-w-[90vw] inline-block ${open ? 'scale-x-100' : 'scale-x-0'}`}>
+        <div className={`z-50 image-modal fixed top-[50%] left-[50%] translate-[-50%] max-sm:min-w-[330px] max-w-[90vw] inline-block ${open ? 'scale-x-100' : 'scale-x-0'}`}>
 
             <div className="text-white bg-[#ffff] rounded-xl p-1">
 
