@@ -8,6 +8,7 @@ import ImageModal from "../components/ui/modal/ImageModal";
 import SliderModal from "../components/ui/modal/SliderModal";
 import { ModalContextProvider } from "../context/ModalContext";
 import DateColumn from "../components/ui/DateColumn";
+import InstagramModal from "../components/ui/modal/InstagramModal";
 
 const Data = [
     {
@@ -32,7 +33,7 @@ const Data = [
             },
             {
                 Card: ColorCard,
-                Modal: SliderModal
+                Modal: InstagramModal
             }
         ]
     },

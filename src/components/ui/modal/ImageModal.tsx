@@ -7,8 +7,8 @@ export default function ImageModal() {
     const { open, toggleOpen } = useModal();
 
     return <div className="flex items-center justify-center">
-        {open && <div className="z-10 fixed top-0 left-0 h-screen w-screen bg-black/60" onClick={toggleOpen}></div>}
-        <div className={`z-50 modal fixed top-[50%] left-[50%] translate-[-50%] max-sm:min-w-[350px] max-w-[90vw] inline-block ${open ? 'scale-x-100' : 'scale-x-0'}`}>
+        {open && <div className="z-10 fixed top-0 left-0 h-screen w-screen bg-black/40" onClick={toggleOpen}></div>}
+        <div className={`z-50 image-modal fixed top-[50%] left-[50%] translate-[-50%] max-sm:min-w-[350px] max-w-[90vw] inline-block ${open ? 'scale-x-100' : 'scale-x-0'}`}>
 
             <div className="text-white bg-[#ffff] rounded-xl p-1">
 
