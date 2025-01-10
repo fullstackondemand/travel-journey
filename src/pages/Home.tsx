@@ -67,7 +67,7 @@ const Data = [
 
 export default function Home() {
 
-    return <main className="home-page h-screen w-screen text-white flex flex-col lowercase">
+    return <main className="home-page h-dvh w-screen text-white flex flex-col lowercase">
         <section className="bg-white text-black w-full h-full flex flex-col overflow-y-hidden">
             <Header />
 
