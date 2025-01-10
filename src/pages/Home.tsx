@@ -1,71 +1,21 @@
 import Header from "../components/shared/Header";
-import ColorCard from "../components/ui/card/ColorCard";
-import ImageCard from "../components/ui/card/ImageCard";
-import SliderCard from "../components/ui/card/SliderCard";
-import BigImageCard from "../components/ui/card/BigImageCard";
 import OuterCard from "../components/ui/OuterCard";
-import ImageModal from "../components/ui/modal/ImageModal";
-import SliderModal from "../components/ui/modal/SliderModal";
 import { ModalContextProvider } from "../context/ModalContext";
 import DateColumn from "../components/ui/DateColumn";
-import InstagramModal from "../components/ui/modal/InstagramModal";
-
-const Data = [
-    {
-        year: 2024,
-        date: 'feb 21',
-        space: 'justify-start',
-        cards: [
-            {
-                Card: ColorCard,
-                Modal: SliderModal
-            }
-        ]
-    },
-    {
-        year: 2024,
-        date: 'feb 21',
-        space: 'justify-between',
-        cards: [
-            {
-                Card: ImageCard,
-                Modal: ImageModal
-            },
-            {
-                Card: ColorCard,
-                Modal: InstagramModal
-            }
-        ]
-    },
-    {
-        year: 2024,
-        date: 'feb 21',
-        space: 'justify-start',
-        cards: [
-            {
-                Card: ImageCard,
-                Modal: SliderModal
-            },
-            {
-                Card: BigImageCard,
-                Modal: ImageModal
-            },
-        ]
-    },
-    {
-        year: 2024,
-        date: 'feb 21',
-        space: 'justify-end',
-        cards: [
-            {
-                Card: SliderCard,
-                Modal: SliderModal
-            }
-        ]
-    }
-]
+import data from "../../public/data/post.json";
 
 export default function Home() {
+
+    // /** Variables Declarations */
+    // const [data, setData] = useState<DataProps[]>([]);
+
+    // // Fetch Post Data
+    // useEffect(() => {
+    //     fetch('/data/post.json').then(async (response) => {
+    //         const post = await response.json();
+    //         setData(post);
+    //     });
+    // }, []);
 
     return <main className="home-page h-dvh w-screen text-white flex flex-col lowercase">
         <section className="bg-white text-black w-full h-full flex flex-col overflow-y-hidden">
@@ -74,12 +24,12 @@ export default function Home() {
             <div className="custom-scroll flex h-full overflow-x-scroll overflow-y-hidden">
                 <div className="h-full w-full flex flex-nowrap">
 
-                    {[...Data, ...Data].map(({ date, year, space, cards }, dateIdx) =>
+                    {data.map(({ date, year, space, cards }, dateIdx) =>
                         <DateColumn year={year} date={date} space={space} key={dateIdx}>
 
-                            {cards.map(({ Card, Modal }, cardIdx) =>
+                            {cards.map((card, cardIdx) =>
                                 <ModalContextProvider key={cardIdx}>
-                                    <OuterCard Card={Card} Modal={Modal} />
+                                    <OuterCard {...card} />
                                 </ModalContextProvider>
                             )}
 

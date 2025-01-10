@@ -1,0 +1,149 @@
+[
+    {
+        "year": 2024,
+        "date": "feb 19",
+        "space": "justify-start",
+        "cards": [
+            {
+                "card": "color",
+                "modal": "image"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 20",
+        "space": "justify-between",
+        "cards": [
+            {
+                "card": "image",
+                "modal": "slider"
+            },
+            {
+                "card": "image",
+                "modal": "instagram"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 21",
+        "space": "justify-between",
+        "cards": [
+            {
+                "card": "color",
+                "link": "https://www.youtube.com"
+            },
+            {
+                "card": "image",
+                "modal": "instagram"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 22",
+        "space": "justify-end",
+        "cards": [
+            {
+                "card": "image",
+                "modal": "instagram"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 23",
+        "space": "justify-start",
+        "cards": [
+            {
+                "card": "slider",
+                "modal": "slider"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 24",
+        "space": "justify-end",
+        "cards": [
+            {
+                "card": "image",
+                "modal": "instagram"
+            },
+            {
+                "card": "image",
+                "modal": "instagram"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 25",
+        "space": "justify-start",
+        "cards": [
+            {
+                "card": "color",
+                "link": "https://www.youtube.com"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 26",
+        "space": "justify-start",
+        "cards": [
+            {
+                "card": "color"
+            },
+            {
+                "card": "slider",
+                "modal": "image"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 27",
+        "space": "justify-between",
+        "cards": [
+            {
+                "card": "slider",
+                "modal": "slider"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "feb 28",
+        "space": "justify-center",
+        "cards": [
+            {
+                "card": "slider",
+                "modal": "image"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "Mar 1",
+        "space": "justify-start",
+        "cards": [
+            {
+                "card": "image",
+                "modal": "instagram"
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "date": "Mar 2",
+        "space": "justify-end",
+        "cards": [
+            {
+                "card": "image",
+                "modal": "image"
+            }
+        ]
+    }
+]
