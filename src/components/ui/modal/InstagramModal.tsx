@@ -1,14 +1,13 @@
 import useModal from "../../../context/ModalContext";
 import { SiInstagram } from "react-icons/si";
+import OuterModal from "../OuterModal";
 
 export default function InstagramModal() {
 
     /** Variable Declarations */
-    const { open, toggleOpen } = useModal();
+    const { open } = useModal();
 
-    return <div className="flex items-center justify-center">
-        {open && <div className="z-10 fixed top-0 left-0 h-screen w-screen bg-black/40" onClick={toggleOpen}></div>}
-
+    return <OuterModal>
         <div className={`w-[95%] lg:w-auto fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-white ${open ? 'scale-x-100' : 'scale-x-0'}`}>
             <div className="flex w-full">
                 <img className="aspect-square rotate-6 z-10 object-cover min-w-[33%] lg:min-w-[35vh] min-h-[33%] lg:min-h-[35vh] max-w-[33%] lg:max-w-[35vh] max-h-[33%] lg:max-h-[35vh] rounded-2xl" src="https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/meet_marnix_1_p33h4o?_a=BBDAAEAD0" />
@@ -27,5 +26,5 @@ export default function InstagramModal() {
             </div>
         </div>
 
-    </div>
+    </OuterModal>
 }
