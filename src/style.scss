@@ -3,6 +3,11 @@
 /* Tailwind Styles */
 @use "tailwindcss";
 
+/* Swiper Styles */
+@use 'swiper/css';
+@use 'swiper/css/navigation';
+@use 'swiper/css/pagination';
+
 /** Custom Styles */
 html {
     -webkit-tap-highlight-color: transparent;
@@ -26,5 +31,19 @@ html {
         background: #f2f2f2;
         border-radius: 100vw;
         padding: 10px
+    }
+}
+
+.swiper-pagination.image-slider {
+    &.swiper-pagination-bullets {
+        @apply top-[10px];
+
+        .swiper-pagination-bullet {
+            @apply h-[5px] w-[21px] rounded-full bg-gray-400 mr-[8px] opacity-100;
+
+            &.swiper-pagination-bullet-active {
+                @apply bg-white;
+            }
+        }
     }
 }
