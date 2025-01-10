@@ -1,6 +1,6 @@
-export default function SliderCard({ children, className }: { children: React.ReactNode, className: string }) {
+export default function SliderCard({ children }: { children: React.ReactNode }) {
 
-    return <div className={`bg-[#503F5B] rounded-2xl hover:duration-100 hover:scale-95 transition-transform relative z-10 h-full w-full group ${className}`}>
+    return <div className="bg-[#503F5B] rounded-2xl hover:duration-100 hover:scale-95 transition-transform relative z-10 max-h-[35vh] w-full group h-full">
         <div className="max-h-full flex flex-col h-[50vh]">
             <div className="px-5 py-4 flex flex-col">
                 {children}

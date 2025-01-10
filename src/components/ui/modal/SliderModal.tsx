@@ -12,9 +12,7 @@ export default function ImageModal() {
 
             <div className="text-white bg-[#ffff] rounded-xl p-1">
 
-                    <div className="h-full w-full md:w-[300px] xl:w-[400px] md:h-[350px] xl:h-[480px]">
-                        <img className="object-cover rounded-xl max-w-[400px] max-h-[480px] aspect-[0.833333_/_1] w-full" src="https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/we_bought_creatormate_plmmsb?_a=BBDAAEAD0" />
-                    </div>
+                  kkk
                 
 
                 <div className="flex items-center justify-between p-1 py-4 text-black">
