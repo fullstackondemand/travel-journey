@@ -36,7 +36,7 @@ html {
 
 .swiper-pagination.image-slider {
     &.swiper-pagination-bullets {
-        @apply top-[10px];
+        @apply top-0;
 
         .swiper-pagination-bullet {
             @apply h-[5px] w-[21px] rounded-full bg-gray-400 mr-[8px] opacity-100;
