@@ -25,6 +25,5 @@ export default function InstagramModal() {
                 </div>
             </div>
         </div>
-
     </OuterModal>
 }

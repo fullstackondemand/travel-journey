@@ -12,7 +12,6 @@ export default function ImageModal() {
     return <OuterModal>
         <div className={`z-50 modal fixed top-[50%] left-[50%] translate-[-50%] max-sm:min-w-[330px] max-w-[90vw] inline-block ${open ? 'scale-x-100' : 'scale-x-0'}`}>
             <div className="text-white bg-[#ffff] rounded-xl p-1">
-
                 <Swiper
                     slidesPerView={1}
                     loop={true}
@@ -46,7 +45,6 @@ export default function ImageModal() {
                     </div>
                     <VscChromeClose className="mr-2 mt-1 hover:cursor-pointer hover:text-gray-400 text-[16px]" onClick={toggleOpen} />
                 </div>
-
             </div>
         </div>
     </OuterModal>
