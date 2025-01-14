@@ -3,10 +3,21 @@
         "year": 2024,
         "date": "feb 19",
         "space": "justify-start",
-        "cards": [
+        "posts": [
             {
-                "card": "color",
-                "modal": "image"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "color",
+                    "color": "#283b4b"
+                },
+                "modal": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/we_bought_creatormate_plmmsb?_a=BBDAAEAD0"
+                }
             }
         ]
     },
@@ -14,77 +25,142 @@
         "year": 2024,
         "date": "feb 20",
         "space": "justify-between",
-        "cards": [
+        "posts": [
             {
-                "card": "image",
-                "modal": "slider"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "slider",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             },
             {
-                "card": "image",
-                "modal": "instagram"
-            }
-        ]
-    },
-    {
-        "year": 2024,
-        "date": "feb 21",
-        "space": "justify-between",
-        "cards": [
-            {
-                "card": "color",
-                "link": "https://www.youtube.com"
-            },
-            {
-                "card": "image",
-                "modal": "instagram"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2024,
         "date": "feb 22",
-        "space": "justify-end",
-        "cards": [
+        "space": "justify-between",
+        "posts": [
             {
-                "card": "image",
-                "modal": "instagram"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "color",
+                    "color": "#283b4b"
+                },
+                "link": "//youtube.com"
+            },
+            {
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2024,
         "date": "feb 23",
-        "space": "justify-start",
-        "cards": [
+        "space": "justify-end",
+        "posts": [
             {
-                "card": "slider",
-                "modal": "slider"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2024,
         "date": "feb 24",
-        "space": "justify-end",
-        "cards": [
-            {
-                "card": "image",
-                "modal": "instagram"
-            },
-            {
-                "card": "image",
-                "modal": "instagram"
-            }
-        ]
-    },
-    {
-        "year": 2024,
-        "date": "feb 25",
         "space": "justify-start",
-        "cards": [
+        "posts": [
             {
-                "card": "color",
-                "link": "https://www.youtube.com"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "slider",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             }
         ]
     },
@@ -92,58 +168,85 @@
         "year": 2024,
         "date": "feb 26",
         "space": "justify-start",
-        "cards": [
+        "posts": [
             {
-                "card": "color"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "image",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             },
             {
-                "card": "slider",
-                "modal": "image"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "bigImage",
+                    "image": "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_700/f_auto/q_auto/v1/jelmer_joins_ses6af?_a=BBDAAEAD0"
+                },
+                "modal": {
+                    "type": "instagram",
+                    "link": "#",
+                    "images": [
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_400/f_auto/q_auto/v1/talked_to_creators_1_ewistu?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_2_hvzgdm?_a=BBDAAEAD0",
+                        "https://res.cloudinary.com/dusb7aq4h/image/upload/c_limit,w_500/f_auto/q_auto/v1/back_in_arms_3_l03yeg?_a=BBDAAEAD0"
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2024,
-        "date": "feb 27",
+        "date": "feb 22",
         "space": "justify-between",
-        "cards": [
+        "posts": [
             {
-                "card": "slider",
-                "modal": "slider"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "color",
+                    "color": "#283b4b"
+                },
+                "link": "//youtube.com"
             }
         ]
     },
     {
         "year": 2024,
-        "date": "feb 28",
-        "space": "justify-center",
-        "cards": [
+        "date": "feb 22",
+        "space": "justify-between",
+        "posts": [
             {
-                "card": "slider",
-                "modal": "image"
-            }
-        ]
-    },
-    {
-        "year": 2024,
-        "date": "Mar 1",
-        "space": "justify-start",
-        "cards": [
-            {
-                "card": "image",
-                "modal": "instagram"
-            }
-        ]
-    },
-    {
-        "year": 2024,
-        "date": "Mar 2",
-        "space": "justify-end",
-        "cards": [
-            {
-                "card": "image",
-                "modal": "image"
+                "title": "we bought creatormate.com",
+                "author": {
+                    "name": "aadigusain",
+                    "image": "https://creatormate.com/_ipx/_/https://accounts.creatormate.com/storage/v1/object/public/calendar_images/jens_profile.png"
+                },
+                "card": {
+                    "type": "color",
+                    "color": "#283b4b"
+                }
             }
         ]
     }
+
 ]

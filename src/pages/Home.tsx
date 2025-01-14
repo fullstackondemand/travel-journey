@@ -24,12 +24,12 @@ export default function Home() {
             <div className="custom-scroll flex h-full overflow-x-scroll overflow-y-hidden">
                 <div className="h-full w-full flex flex-nowrap">
 
-                    {data.map(({ date, year, space, cards }, dateIdx) =>
+                    {data.map(({ date, year, space, posts }, dateIdx) =>
                         <DateColumn year={year} date={date} space={space} key={dateIdx}>
 
-                            {cards.map((card, cardIdx) =>
+                            {posts.map((post, cardIdx) =>
                                 <ModalContextProvider key={cardIdx}>
-                                    <OuterCard {...card} />
+                                    <OuterCard {...post} />
                                 </ModalContextProvider>
                             )}
 
